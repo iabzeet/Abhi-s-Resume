@@ -1,0 +1,208 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Abhijeet Singh Panwar} \\ \vspace{1pt}
+    \small +91 9352471582 $|$ \href{mailto:x@x.com}{\underline{iabzeet@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/abhijeet-singh-panwar}} $|$
+    \href{https://github.com/...}{\underline{github.com/iabzeet}}
+\end{center}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Kotlin, Dart, JavaScript, Python, C/C++, (DSA in Java)} \\
+     \textbf{Mobile Development}{: Android (Java/Kotlin), Jetpack Compose, Jetpack Components (Room, LiveData, ViewModel)} \\
+     \textbf{Flutter Development}{: State Management (Provider, Riverpod, BLoC), Material-UI} \\
+     \textbf{UI/UX Design}{: Jetpack Compose, XML, Material Design} \\
+     \textbf{Web Technologies}{: RESTFul APIs, Bootstrap, JSON, FastAPI} \\
+     \textbf{Cloud Technologies}{: Firebase (Authentication, Firestore, Cloud Functions, Cloud Messaging), AWS, Google Cloud Plaform} \\
+     \textbf{Databases}{: Room Database, SQLite, Firebase Realtime Database, Firestore, Hive, ISAR, MySQL, MongoDB} \\
+     \textbf{Frameworks}{: Android, Flutter, Jetpack Compose, React, Node.js, Flask} \\
+     \textbf{Developer Tools}{: Android Studio, Git, CI/CD, Linux (Arch, Kali), Virtual Box} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib (for data analysis and visualization)} \\
+    \textbf{Testing}{: Unit Tests, Widget Tests, Integration Tests, Flutter Testing Framework} \\
+    }}
+ \end{itemize}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Arya College of Engineering}{Jaipur, Raj.}
+      {Bachelor of Technology}{2021 -- 2025}
+    \resumeSubheading
+      {Gurudeep Academy}{Beawar, Raj.}
+      {(RBSE) Class 12$^{\text{th}}$}{2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Global Institute}{July 2023 -- Sept 2023}
+      {Web Development Training}{}
+      \resumeItemListStart
+        \resumeItem{Developed 10+ responsive and interactive websites using HTML, CSS, Bootstrap and JavaScript; optimized load times by 40\% and increased user engagement metrics by 25\%.}
+        \resumeItem{Engineered a high performing e-commerce platform using Django, integrating robust features: user authentication, expansive product catalog, seamless shopping cart functionality, and secure payment gateaways.}
+        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{The Wall} $|$ \emph{Flutter, Dart, Provider, Firebase (Authentication, Firestore, Cloud Functions), Material Design}}{}
+          \resumeItemListStart
+            \resumeItem{The Wall is a social media application developed using Flutter, designed to provide users with a seamless and interactive platform similar to Twitter. This app allows users to post messages on a common wall, reply to messages, and like posts. The app supports user customization, including setting a username and bio. It also adapts to the user's mobile theme, offering a dark mode that aligns with the device settings.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Food Delivery} $|$ \emph{Flutter, Dart, Provider, Firebase (Authentication, Firestore), Razerpay API, Location API}}{}
+          \resumeItemListStart
+            \resumeItem{FoodieDeliver is a mobile application designed to simplify the process of ordering food online. Built using Flutter, the app leverages location APIs to determine the user's location, providing a personalized experience. The home screen features sections of different types of foods displayed in a horizontally scrollable view, enhancing user accessibility and navigation through food categories.}
+            \resumeItem{FoodieDeliver provides estimated delivery times for orders and a comprehensive cart management system where users can review selected items, adjust quantities, and add optional add-ons tailored to each food item.}
+            \resumeItem{The billing page features a structured layout that summarizes the order details, ensuring clarity and transparency in transaction summaries.}
+          \resumeItemListEnd
+     \resumeProjectHeading
+          {\textbf{My Maps} $|$ \emph{Kotlin, Google Maps API, Room Database, ViewModel}}{}
+          \resumeItemListStart
+            \resumeItem{The Custom Maps app is a location-based Android application developed using Kotlin, designed to enable users to create and manage custom maps with personalized pins and descriptions.}
+            \resumeItem{Upon opening the app, users are greeted with an intuitive interface featuring an action floating button. Clicking this button prompts the user to enter a title for their map. Once the title is provided, the app utilizes the Google Maps API to display the user's current location on the map.}
+            \resumeItem{User can long tap on the map and save the location wile giving it the custom title and description. The user can also delete these pins.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+
+
+%-------------------------------------------
+\end{document}
