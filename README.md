@@ -6,8 +6,8 @@ Inspired by [Jake's Resume]([https://giphy.com/](https://www.overleaf.com/latex/
 
 ## Preview
 
-<img src="https://imgur.com/a/3lvpiwB" title="resume" width![Abhijeet Singh Panwar_page-0001 (1)](https://github.com/iabzeet/resume/assets/58417091/13fc158d-78c7-4a08-bea6-190a0f7d7526)
-='' alt='resume' />
+![Abhijeet Singh Panwar_page-0001 (1)](https://github.com/iabzeet/resume/assets/58417091/13fc158d-78c7-4a08-bea6-190a0f7d7526)
+
 
 ## How to Use This Template
 ```Git clone``` this repository and edit offline.
